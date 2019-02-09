@@ -2,42 +2,50 @@
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    <title>Tristan's Portfolio</title>
-    <div id="YourName">
-            <div id="tm"><h1>Tristan Magombo</h1></div>
-        <ul>
-                <li><a href="index.html">About</a></li>
-                <li>|</li>
-                <li><a href="contact.html">Contact</a></li>
-                <li>|</li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-   </div>
-</head>
-<br>
-<br>
-<br>
-<body>
-    
-        <div id="contact">
-                <h2>
-                    Contact
-                </h2>
-                <hr>
-                <form action="/action_page.php">
-                    <h3>First name</h3>
-                    <input type="text" name="Name" value="JohnDoe"><br> <br>
-                    <h3>Email</h3>
-                    <input type="text" name="email" value="johndoe@gmail.com"> <br> <br>
-                 <h3>Questions or Comments</h3>
-                    <input id="box" type="text" name="comments" value="...">
-                    <input id="button" type="submit" value="Submit">
-                  </form>
-            
+    <title>Contact Page</title>
+
+    <nav class="navbar navbar-expand-md navbar-light" style="width: 100%; position: fixed; background-color: #ffffff; border-style: solid;
+    border-color: #cccccc; border-width: 0px 0px 1px 0px; padding: 0">
+        <a class="navbar-brand ml-auto" style="padding: 0; height: 70px;">
+            <h2 style="font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif; background-color: #4aaaa5; color: #ffffff; width: 300px; padding-top: 10px; height: 69.5px; text-align: center;">Tristan Magombo</h2>
+        </a>
+        <div class="navbar-nav m-auto">
+            <a class="nav-item nav-link active" href="index.html">About</a>
+            <a class="nav-item nav-link active">|</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link active">|</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
         </div>
+        </div>
+    </nav>
+</head>
 
-    <footer>
+<body style="padding: 0; margin: 0; background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg)">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="jumbotron" style="border-style: solid; border-color: #dddddd;  background-color: #ffffff; width: 800px; margin: auto; padding: 20px; height: 460px;">
+        <h3 style="color: #4aaaa5; font-family: Georgia, Times, Times New Roman, serif;">Contact</h3>
+        <hr class="my-4">
+        <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Name</label>
+                  <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Enter Name">
+                </div>
 
-    </footer>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">Questions or Comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type here...." rows="3"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+    </div>
+<nav class="navbar navbar-dark" style="background-color: #666666; border-color: #4aaaa5; border-style: solid; border-width: 3pt 0pt 0pt 0pt; height: 40px; background-color: #666666; width: 100%; position: fixed; bottom: 0;"></nav>
 </body>
 
 
